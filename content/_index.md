@@ -44,7 +44,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
+  - block: custom
     id: skills
     content:
       title: "Skills & Expertise"
@@ -53,7 +53,7 @@ sections:
         folders:
           - skills
     design:
-      view: list   
+      template: "skills.html"
   - block: collection
     id: papers
     content:
