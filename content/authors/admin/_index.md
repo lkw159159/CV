@@ -33,18 +33,14 @@ profiles:
   - icon: at-symbol
     url: 'mailto:lkw159159@naver.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://instagram/lkw159159
   - icon: brands/github
     url: https://github.com/lkw159159
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/kiwook-lee-a346ba1b2/?trk=people-guest_people_search-card&originalSubdomain=kr
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=ko&user=bdRdpfMAAAAJ
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
 interests:
   - Liquid Biopsy
@@ -53,37 +49,22 @@ interests:
   - Immunotherapy
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31 
+  - area: Integrated Ph.D Course - Integrated Biotechnology
+    institution: Sungkyunkwan University
+    date_start: 2021-09-01
+    date_end: NULL 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Supervised by [Prof. Youngjun Jeon](https://sites.google.com/view/lab-rpm/personnel/professor?authuser=0).
+      [RNA-based Precision Medicine Lab](https://sites.google.com/view/lab-rpm/home?authuser=0)
+    #button:
+    #  text: 'Read Thesis'
+    #  url: 'https://example.com'
+  - area: B.S - Integrated Biotechnology
+    institution: Sungkyunkwan University
+    date_start: 2015-03-01
+    date_end: 2021-08-31
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
