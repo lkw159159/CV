@@ -1,6 +1,7 @@
 ---
 title: "Python"
-summary: "AI Modeling (ML & DL)"
-icon: "chart-bar"
+category: "Technical Skills"
+icon: "🟦"
+summary: "AI Modeling & Data Science"
 percent: 70
 ---

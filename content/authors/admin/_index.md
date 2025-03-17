@@ -162,4 +162,4 @@ awards:
 
 ## About Me
 
-Kiwook Lee is a Ph.D Candidate of Integrate Biotechnology Department at the [RNA-based Precision Medicine Lab](https://sites.google.com/view/lab-rpm/home?authuser=0), SKKU. His research interests include application of the platform of AI-based Transcriptomics , including cell-free transcriptomics and application of 
+Kiwook Lee is a Ph.D Candidate of Integrate Biotechnology Department at the [RNA-based Precision Medicine Lab](https://sites.google.com/view/lab-rpm/home?authuser=0), SKKU. His research interests include application of the platform of AI-based Transcriptomics, including cell-free transcriptomics and application of 

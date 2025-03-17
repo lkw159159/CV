@@ -44,16 +44,10 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: custom
-    id: skills
+  - block: skills
     content:
-      title: "Skills & Expertise"
-      text: "My technical & research skills."
-      filters:
-        folders:
-          - skills
-    design:
-      template: "skills.html"
+      title: Skills & Hobbies
+      username: admin
   - block: collection
     id: papers
     content:
