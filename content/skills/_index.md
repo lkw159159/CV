@@ -1,4 +1,0 @@
----
-title: "Skills"
-type: "skills"
----

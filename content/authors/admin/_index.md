@@ -92,34 +92,34 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Analytic Skills
     items:
       - name: R
-        description: 'Visualization & Data Analysis'
+        description: 'Data Analysis & Visualization'
         percent: 100
-        icon: code-bracket
+        icon: devicon/rstudio
       - name: Python
         description: 'AI Modeling (ML & DL)'
         percent: 70
-        icon: chart-bar
+        icon: devicon/python
       - name: Linux-server
-        description: ''
+        description: 'Bioinformatics & Server management'
         percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        icon: code-bracket
+  - name: Experimental skills
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
+      - name: Cell Biology
+        description: 'Cell Works including Transfection'
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
+      - name: Molecular Biology
+        description: 'Western Blot & PCR Experiment'
         percent: 100
         icon: cat
-      - name: Photography
-        description: ''
+      - name: Libray Preparation
+        description: 'RNA-seq Library Preparation & Exome Capture'
         percent: 80
         icon: camera
 
