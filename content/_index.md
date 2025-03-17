@@ -46,7 +46,7 @@ sections:
       columns: '1'
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Technical Skills 
       username: admin
   - block: collection
     id: papers
