@@ -1,8 +1,8 @@
 ---
 title: MiR-29 and MiR-140 regulate TRAIL-induced drug tolerance in lung cancer
 authors:
-- "**Suyeon Kim**<sup>*</sup>"
-- "**Ki Wook Lee**<sup>*</sup>"
+- Suyeon Kim*
+- Ki Wook Lee*
 - Yongjin Yoo
 - Sang Hee Park
 - Ji Won Lee
@@ -17,5 +17,4 @@ publishDate: '2025-03-17T11:52:15.517934Z'
 publication_types:
 - article-journal
 publication: '*Animal Cells and Systems*'
-abstract: "<sup>*</sup>Equally Contributed."
 ---

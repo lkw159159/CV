@@ -1,8 +1,8 @@
 ---
 title: 3-Fucosyllactose-mediated modulation of immune response against virus infection
 authors:
-- Seokoh Moon
-- admin
+- Seokoh Moon*
+- Ki Wook Lee*
 - Myungseo Park
 - Jeonghui Moon
 - Sang Hee Park
