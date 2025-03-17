@@ -2,8 +2,8 @@
 title: 'DOGpred: A Novel Deep Learning Framework for Accurate Identification of Human
   O-linked Threonine Glycosylation Sites'
 authors:
-- admin
-- Nhat Truong Pham
+- "**Ki Wook Lee**<sup>*</sup>"
+- "**Nhat Truong Pham**<sup>*</sup>"
 - Hye Jung Min
 - Hyun Woo Park
 - Ji Won Lee
@@ -18,4 +18,5 @@ publishDate: '2025-03-17T11:52:15.524178Z'
 publication_types:
 - article-journal
 publication: '*Journal of Molecular Biology*'
+abstract: "<sup>*</sup>Equally Contributed."
 ---
