@@ -13,9 +13,21 @@ authors:
 - Illia Shaginyan
 - Heeje Cho
 - ' others'
-date: '2025-01-01'
-publishDate: '2025-03-17T11:52:15.524178Z'
+date: '2025-03-15'
+publishDate: '2025-03-15T11:52:15.524178Z'
 publication_types:
 - article-journal
 publication: '*Journal of Molecular Biology*'
+
+featured: true
+
+links:
+ - name: Custom Link
+   url: https://www.sciencedirect.com/science/article/pii/S0022283625000439
+
+image:
+   caption: 'Image credit: [**JMB**](https://www.sciencedirect.com/science/article/pii/S0022283625000439#f0035)'
+   focal_point: ""
+   preview_only: false
+ 
 ---

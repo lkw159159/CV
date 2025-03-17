@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Ki Wook Lee
+title: "Ki Wook Lee"
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Ki Wook
-last_name: Lee
+first_name: "Ki Wook"
+last_name: "Lee"
 
 # Status emoji
 status:
