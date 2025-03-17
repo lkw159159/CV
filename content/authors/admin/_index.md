@@ -113,11 +113,11 @@ skills:
       - name: Cell Biology
         description: 'Cell Works including Transfection'
         percent: 60
-        icon: 🧫
+        icon: cat
       - name: Molecular Biology
         description: 'Western Blot & PCR Experiment'
         percent: 70
-        icon: 🔬
+        icon: cat
       - name: Library Preparation
         description: 'RNA-seq Library Preparation & Exome Capture'
         percent: 80
