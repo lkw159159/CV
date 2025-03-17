@@ -11,3 +11,10 @@
   border-radius: 50%; /* 원형 유지 */
   object-fit: cover;
 }
+
+#my-research {
+  max-width: 900px; /* 기본적으로 너무 좁게 설정된 너비를 확장 */
+  margin: 0 auto; /* 중앙 정렬 유지 */
+  padding-left: 20px; /* 좌측 공백 조정 */
+  padding-right: 20px; /* 우측 공백 조정 */
+}
