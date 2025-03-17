@@ -2,7 +2,7 @@
 title: MiR-29 and MiR-140 regulate TRAIL-induced drug tolerance in lung cancer
 authors:
 - Suyeon Kim
-- Ki Wook Lee
+- admin
 - Yongjin Yoo
 - Sang Hee Park
 - Ji Won Lee

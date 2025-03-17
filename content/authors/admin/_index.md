@@ -6,7 +6,7 @@ title: Kiwook Lee
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Kiwook
+first_name: Ki Wook
 last_name: Lee
 
 # Status emoji
