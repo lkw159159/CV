@@ -35,10 +35,12 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on RNA-based Precision Medicine (RPM) for disease diagnosis and prognosis prediction. I evaluate the impact of RNA-seq data preprocessing on machine learning model performance, identifying optimal normalization and scaling methods to enhance diagnostic accuracy.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
+        A key aspect of my work is developing predictive models for immune checkpoint inhibitor (ICI) response, leveraging immune infiltration profiles to estimate therapeutic outcomes. I also explore immune phenotyping to better understand disease progression and treatment response.
+
+        Additionally, I integrate biomarker discovery and survival analysis, using transcriptomic signatures to improve prognostic modeling. Moving forward, I aim to apply single-cell RNA sequencing to validate findings and enhance translational relevance. My ultimate goal is to advance precision medicine approaches for personalized disease management.
+
         Please reach out to collaborate 😃
     design:
       columns: '1'
