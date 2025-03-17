@@ -45,6 +45,7 @@ sections:
     design:
       columns: '1'
   - block: skills
+    id: skills
     content:
       title: Technical Skills 
       username: admin
