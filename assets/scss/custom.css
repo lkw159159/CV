@@ -1,0 +1,13 @@
+.card-grid .article-card .article-thumbnail img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 300px; /* 기본 크기보다 크게 조정 */
+  object-fit: cover; /* 이미지 비율 유지 */
+}
+
+.author-profile .avatar {
+  width: 180px !important; /* 기존보다 큰 크기로 설정 (기본: 120px) */
+  height: 180px !important;
+  border-radius: 50%; /* 원형 유지 */
+  object-fit: cover;
+}
