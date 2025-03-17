@@ -1,0 +1,11 @@
+{{ range .Params.feature }}
+  <div class="feature">
+    <h4>{{ .name }}</h4>
+    <p>{{ .description }}</p>
+    <div class="skill-bar">
+      <div class="skill-bar-inner" style="width: {{ .percent }}%;">
+        {{ .percent }}%
+      </div>
+    </div>
+  </div>
+{{ end }}
