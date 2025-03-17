@@ -94,15 +94,15 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
+      - name: R
+        description: 'Visualization & Data Analysis'
         percent: 100
+        icon: code-bracket
+      - name: Python
+        description: 'AI Modeling (ML & DL)'
+        percent: 70
         icon: chart-bar
-      - name: SQL
+      - name: Linux-server
         description: ''
         percent: 40
         icon: circle-stack
@@ -124,13 +124,10 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Korean
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
+  - name: English
+    percent: 70
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -165,4 +162,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Kiwook Lee is a Ph.D Candidate of Integrate Biotechnology Department at the [RNA-based Precision Medicine Lab](https://sites.google.com/view/lab-rpm/home?authuser=0), SKKU. His research interests include application of the platform of AI-based Transcriptomics , including cell-free transcriptomics and application of 
