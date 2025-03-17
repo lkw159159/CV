@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2025-03-17
 type: landing
 
 design:
@@ -44,6 +44,16 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+  - block: collection
+    id: skills
+    content:
+      title: "Skills & Expertise"
+      text: "My technical & research skills."
+      filters:
+        folders:
+          - skills
+    design:
+      view: list   
   - block: collection
     id: papers
     content:
