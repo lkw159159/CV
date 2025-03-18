@@ -66,28 +66,32 @@ education:
     summary: |
       
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Graduate Student
+    company_name: RNA-based Predicion Medicine Lab
+    company_url: 'https://sites.google.com/view/lab-rpm?pli=1'
+    date_start: 2021-09-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Development of Machine learning Platform Using Transcriptomics
+      - Prediction of Immune Checkpoint Inhibitor Response in Various Cancers
+      - AI Model for Diagnosis of Aizheimer's Disease
+  - position: Undergraduate Student
+    company_name: RNA-based Predicion Medicine Lab
+    company_url: 'https://sites.google.com/view/lab-rpm?pli=1'
+    date_start: 2020-10-01
+    date_end: 2021-08-31
+    summary: |2-
+      - Platform Development for RNA-seq Analyis
+      - Cell Experiment for lncRNA
+  - position: Undergraduate Student
+    company_name: Celtech
+    date_start: 2017-01-08
+    date_end: 2017-12-27
+    summary: |2-
+      - Study for Lymphedema
+      - Cell Experiment & Mouse Work
+      - Western blot & qRT-PCR
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
