@@ -31,7 +31,7 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: false
 image: 
-  src: "featured.jpg"
+  src: "/event/2025_AACR/featured.jpg"
   caption: 'Image credit: [**AACR**](https://oncodaily.com/blog/214078)'
   focal_point: Right
 
