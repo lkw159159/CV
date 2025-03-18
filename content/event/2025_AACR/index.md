@@ -36,6 +36,10 @@ image:
   focal_point: Right
 
 
+# ✅ 추가 테스트용
+featured_image: "/event/2025_AACR/featured.jpg"
+thumbnail: "/event/2025_AACR/featured.jpg"
+
 ---
 
 <br><br>
