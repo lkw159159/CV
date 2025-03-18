@@ -1,7 +1,6 @@
-{{ define "main" }}
-  <article class="container expanded-content my-10" style="max-width: 800px; margin: auto; padding-left: 20px; padding-right: 20px;">
+<article class="container expanded-content my-10" style="max-width: 800px; margin: auto; padding-left: 20px; padding-right: 20px;">
 
-    <!-- ✅ 이미지 디버깅 메시지 추가 -->
+    <!-- ✅ 디버깅 메시지 -->
     {{ if .Params.image }}
       <p style="color: green;">✅ Image parameter found: {{ .Params.image }}</p>
     {{ else }}
@@ -27,7 +26,7 @@
     </header>
 
     <!-- ✅ 본문 출력 -->
-    <div class="event-content" style="margin-left: 10px; margin-right: 10px; font-size: 15px;">
+    <div class="event-content" style="font-size: 15px;">
       {{ if .Content }}
         {{ .Content | markdownify }}
       {{ else }}

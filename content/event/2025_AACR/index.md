@@ -34,12 +34,6 @@ image:
   src: "/event/2025_AACR/featured.jpg"
   caption: 'Image credit: [**AACR**](https://oncodaily.com/blog/214078)'
   focal_point: Right
-
-
-# ✅ 추가 테스트용
-featured_image: "/event/2025_AACR/featured.jpg"
-thumbnail: "/event/2025_AACR/featured.jpg"
-
 ---
 
 <br><br>
