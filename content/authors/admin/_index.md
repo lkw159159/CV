@@ -141,21 +141,21 @@ awards:
     url: https://www.nrf.re.kr/biz/info/info/view?menu_no=378&biz_no=416
     date: '2024-09-01'
     awarder: National Research Foundation of Korea (NRF)
-    icon: nrf
+    icon: "icons/nrf.svg"
     summary: |
      I was selected for the 2024 NRF Ph.D. Student Research Encouragement Grant by the National Research Foundation of Korea, securing a two-year individual research project. As a result, I am receiving research funding from NRF for two years.
   - title: On-dream Future Industrial Talent Scholarship
     url: https://www.cmkfoundation-scholarship.org/
     date: '2023-06-14'
     awarder: Hyundai Motor Chung Mong-Koo Foundation
-    icon: cmk
+    icon: "icons/cmk.svg"
     summary: |
       I was selected for the Hyundai On-Dream Future Industrial Talent Scholarship in 2023 and have been receiving benefits each semester, including tuition support, living expenses, annual conference participation funding, and a scholarship for research publication.
   - title: Excellent graduate student scholarship
     url: https://www.skku.edu/skku/mobile/notice.do;HOMEPAGE_JSESSIONID=x4DM0lI1lVcfezW7QeoXzfCjKOW8S2W_L6CmAOO5mO_aAfsM2uw0!-2129878608?mode=view&articleNo=89082&article.offset=880&articleLimit=10&srSearchVal=%EB%8C%80%ED%95%99%EC%9B%90
     date: '2021-09-01'
     awarder: Sungkyunkwan University
-    icon: skku
+    icon: "icons/skku.svg"
     summary: |
       I was selected as an Outstanding Graduate Student Scholarship recipient at Sungkyunkwan University for the second half of 2021 and received tuition support each semester.
 ---
