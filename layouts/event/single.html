@@ -6,16 +6,19 @@
       {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
     </header>
 
-    <!-- ✅ 이미지 추가 및 확인 -->
+    <!-- ✅ 이미지 추가 (맵 데이터 처리) -->
     {{ with .Params.image }}
-      <div class="event-image">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
-      </div>
-    {{ else }}
-      <p style="color: red;">⚠ No image found. Please check your `index.md` file.</p>
+      {{ if .src }}
+        <div class="event-image">
+          <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
+          {{ with .caption }}<p class="image-caption">{{ . | markdownify }}</p>{{ end }}
+        </div>
+      {{ else }}
+        <p style="color: red;">⚠ No image found. Please check your `index.md` file.</p>
+      {{ end }}
     {{ end }}
 
-    <!-- ✅ 본문 강제 출력 -->
+    <!-- ✅ 본문 출력 -->
     <div class="event-content">
       {{ if .Content }}
         {{ .Content }}
