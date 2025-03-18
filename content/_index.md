@@ -31,6 +31,8 @@ sections:
       columns: 2
       gap: 12px
       align: center
+    extra_content:
+      - partial: biography
   - block: markdown
     content:
       title: '📚 My Research'
