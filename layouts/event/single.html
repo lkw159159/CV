@@ -1,16 +1,11 @@
 {{ define "main" }}
   <article class="container expanded-content my-10">
-    <header>
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
-      {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
-    </header>
 
-    <!-- ✅ 이미지 추가 및 캡션 표시 -->
+    <!-- ✅ 이미지를 최상단으로 이동 -->
     {{ with .Params.image }}
       {{ if .src }}
         <div class="event-image">
-          <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
+          <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
           {{ with .caption }}
             <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa;">
               {{ . | markdownify }}
@@ -22,6 +17,12 @@
       {{ end }}
     {{ end }}
 
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
+      {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
+    </header>
+
     <!-- ✅ 본문 출력 -->
     <div class="event-content">
       {{ if .Content }}
@@ -30,5 +31,6 @@
         <p style="color: red;">⚠ No content available. Please check your `index.md` file.</p>
       {{ end }}
     </div>
+
   </article>
 {{ end }}
