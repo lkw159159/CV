@@ -7,7 +7,7 @@
   
 /* AACR 2025 페이지의 본문을 더 넓게 표시 */
 .expanded-content {
-    max-width: 1100px;
+    max-width: 1100px !important; /* 기존보다 너비 증가 */
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;

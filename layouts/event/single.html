@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="page-body expanded-content my-10">
+    <h1>{{ .Title }}</h1>
+    <p><strong>Event:</strong> {{ .Params.event }}</p>
+    <p><strong>Location:</strong> {{ .Params.location }}</p>
+    <div class="event-content">
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}
