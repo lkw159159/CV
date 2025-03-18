@@ -1,10 +1,13 @@
 {{ define "main" }}
-  <div class="page-body expanded-content my-10">
-    <h1>{{ .Title }}</h1>
-    <p><strong>Event:</strong> {{ .Params.event }}</p>
-    <p><strong>Location:</strong> {{ .Params.location }}</p>
+  <article class="container expanded-content my-10">
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
+      {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
+    </header>
+
     <div class="event-content">
-      {{ .Content }}
+      {{ .Content }}  <!-- ✅ 본문이 사라지지 않도록 추가 -->
     </div>
-  </div>
+  </article>
 {{ end }}
