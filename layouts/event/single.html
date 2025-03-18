@@ -4,17 +4,24 @@
       <h1>{{ .Title }}</h1>
       {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
       {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
-
-      <!-- ✅ 이미지 추가 -->
-      {{ with .Params.image }}
-        <div class="event-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
-        </div>
-      {{ end }}
     </header>
 
+    <!-- ✅ 이미지 추가 및 확인 -->
+    {{ with .Params.image }}
+      <div class="event-image">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
+      </div>
+    {{ else }}
+      <p style="color: red;">⚠ No image found. Please check your `index.md` file.</p>
+    {{ end }}
+
+    <!-- ✅ 본문 강제 출력 -->
     <div class="event-content">
-      {{ .Content }}  <!-- ✅ 본문 출력 -->
+      {{ if .Content }}
+        {{ .Content }}
+      {{ else }}
+        <p style="color: red;">⚠ No content available. Please check your `index.md` file.</p>
+      {{ end }}
     </div>
   </article>
 {{ end }}
