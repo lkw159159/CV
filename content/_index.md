@@ -32,7 +32,7 @@ sections:
       gap: 12px
       align: center
     extra_content:
-      - partial: biography
+      - partial: "biography"
   - block: markdown
     content:
       title: '📚 My Research'
