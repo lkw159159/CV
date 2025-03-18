@@ -5,7 +5,7 @@
     {{ with .Params.image }}
       {{ if .src }}
         <div class="event-image" style="text-align: center; margin-bottom: 20px;">
-          <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
+          <img src="{{ .src | relURL }}" alt="Event Image" style="max-width: 100%; height: auto;">
           {{ with .caption }}
             <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa; margin-top: 5px;">
               {{ . | markdownify }}
@@ -15,6 +15,8 @@
       {{ else }}
         <p style="color: red;">⚠ No image found. Please check your `index.md` file.</p>
       {{ end }}
+    {{ else }}
+      <p style="color: red;">⚠ No image parameter found. Please check your `index.md` file.</p>
     {{ end }}
 
     <!-- ✅ 중복 제목 제거 -->
@@ -25,7 +27,7 @@
     </header>
 
     <!-- ✅ 본문 출력 -->
-    <div class="event-content" style="margin-left: 30px; margin-right: 30px;">
+    <div class="event-content" style="margin-left: 20px; margin-right: 20px; font-size: 11px;">
       {{ if .Content }}
         {{ .Content | markdownify }}
       {{ else }}
