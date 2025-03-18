@@ -1,54 +1,43 @@
 <section id="section-resume-biography" class="relative hbb-section blox-resume-biography-3 dark">
-    <div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
-      
-      <!-- 왼쪽: 프로필 정보 -->
-      <div class="flex-none w-[130px] mx-auto md:mx-0">
-        <div id="profile" class="flex justify-center items-center flex-col">
-          <!-- 프로필 이미지 -->
-          <div class="avatar-wrapper mt-10">
-            <img src="{{ .Site.BaseURL }}uploads/avatar.jpg" alt="Profile Picture" class="rounded-full w-32 h-32">
-          </div>
-          <!-- 이름 및 소셜 아이콘 -->
-          <h1 class="portrait-title dark:text-white">{{ .Title }}</h1>
-          <p class="text-sm text-gray-400">{{ .Params.role }}</p>
-          <ul class="network-icon dark:text-zinc-100 flex space-x-3 mt-2">
-            {{ range .Params.profiles }}
-            <li>
-              <a href="{{ .url }}" target="_blank" class="text-gray-300 hover:text-white">
-                <i class="{{ .icon }}"></i>
-              </a>
-            </li>
-            {{ end }}
-          </ul>
+  <div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+    
+    <!-- 왼쪽: 프로필 정보 -->
+    <div class="flex-none w-[130px] mx-auto md:mx-0">
+      <div id="profile" class="flex justify-center items-center flex-col">
+        <!-- 프로필 이미지 -->
+        <div class="avatar-wrapper mt-10">
+          <img src="{{ .Site.BaseURL }}uploads/avatar.jpg" alt="Profile Picture" class="rounded-full w-32 h-32">
         </div>
-      </div>
-  
-      <!-- 오른쪽: About Me & Technical Skills -->
-      <div class="flex-auto max-w-prose md:mt-12 flex flex-col md:flex-row gap-6">
-        
-        <!-- About Me -->
-        <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
-          <h2>About Me</h2>
-          {{ .Content }}
-          <a href="{{ .Params.button.url }}" target="_blank" class="btn btn-primary mt-4">
-            {{ .Params.button.text }}
-          </a>
-        </div>
-  
-        <!-- ✅ 추가된 Technical Skills -->
-        <div class="flex-auto">
-          <h2>Technical Skills</h2>
-          <ul class="list-none">
-            {{ range .Params.skills }}
-            <li class="flex items-center space-x-3 mt-2">
-              <i class="{{ .icon }} text-xl"></i>
-              <span class="text-white">{{ .name }} - {{ .description }}</span>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-  
+        <!-- 이름 및 소셜 아이콘 -->
+        <h1 class="portrait-title dark:text-white">{{ .Title }}</h1>
+        <p class="text-sm text-gray-400">{{ .Params.role }}</p>
+        <ul class="network-icon dark:text-zinc-100 flex space-x-3 mt-2">
+          {{ range .Params.profiles }}
+          <li>
+            <a href="{{ .url }}" target="_blank" class="text-gray-300 hover:text-white">
+              <i class="{{ .icon }}"></i>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
       </div>
     </div>
-  </section>
-  
+
+    <!-- 오른쪽: About Me & Technical Skills -->
+    <div class="flex-auto max-w-prose md:mt-12 flex flex-col md:flex-row gap-6">
+      
+      <!-- About Me -->
+      <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+        <h2>About Me</h2>
+        {{ .Content }}
+        <a href="{{ .Params.button.url }}" target="_blank" class="btn btn-primary mt-4">
+          {{ .Params.button.text }}
+        </a>
+      </div>
+
+      <!-- ✅ 추가된 Technical Skills (별도의 skills.html에서 불러옴) -->
+      {{ partial "skills.html" . }}
+
+    </div>
+  </div>
+</section>

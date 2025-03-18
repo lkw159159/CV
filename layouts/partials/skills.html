@@ -1,0 +1,11 @@
+<div class="flex-auto">
+    <h2>Technical Skills</h2>
+    <ul class="list-none">
+      {{ range .Site.Params.skills }}
+      <li class="flex items-center space-x-3 mt-2">
+        <i class="{{ .icon }} text-xl"></i>
+        <span class="text-white">{{ .name }} - {{ .description }}</span>
+      </li>
+      {{ end }}
+    </ul>
+</div>

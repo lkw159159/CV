@@ -31,16 +31,6 @@ sections:
       columns: 2
       gap: 12px
       align: center
-
-    extra_content:
-      - block: skills
-        id: skills
-        content:
-          title: Technical Skills 
-          username: admin
-        design:
-          layout: "inline"  # ✅ 옆에 배치하도록 설정
-
   - block: markdown
     content:
       title: '📚 My Research'
