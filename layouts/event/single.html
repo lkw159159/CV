@@ -4,10 +4,17 @@
       <h1>{{ .Title }}</h1>
       {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
       {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
+
+      <!-- ✅ 이미지 추가 -->
+      {{ with .Params.image }}
+        <div class="event-image">
+          <img src="{{ . }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
+        </div>
+      {{ end }}
     </header>
 
     <div class="event-content">
-      {{ .Content }}  <!-- ✅ 본문이 사라지지 않도록 추가 -->
+      {{ .Content }}  <!-- ✅ 본문 출력 -->
     </div>
   </article>
 {{ end }}
