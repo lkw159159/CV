@@ -1,13 +1,13 @@
 {{ define "main" }}
   <article class="container expanded-content my-10">
 
-    <!-- ✅ 이미지를 최상단으로 이동 -->
+    <!-- ✅ 이미지가 최상단에 오도록 이동 -->
     {{ with .Params.image }}
       {{ if .src }}
-        <div class="event-image">
-          <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        <div class="event-image" style="text-align: center; margin-bottom: 20px;">
+          <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
           {{ with .caption }}
-            <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa;">
+            <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa; margin-top: 5px;">
               {{ . | markdownify }}
             </p>
           {{ end }}
@@ -17,6 +17,7 @@
       {{ end }}
     {{ end }}
 
+    <!-- ✅ 중복 제목 제거 -->
     <header>
       <h1>{{ .Title }}</h1>
       {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
