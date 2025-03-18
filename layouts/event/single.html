@@ -25,13 +25,6 @@
       {{ end }}
     {{ end }}
 
-    <!-- ✅ 중복 제목 제거 -->
-    <header>
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.event }}<p><strong>Event:</strong> {{ . }}</p>{{ end }}
-      {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
-    </header>
-
     <!-- ✅ 본문 출력 -->
     <div class="event-content" style="margin-left: 10px; margin-right: 10px; font-size: 14px;">
       {{ if .Content }}
