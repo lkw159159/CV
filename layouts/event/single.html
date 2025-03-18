@@ -1,23 +1,28 @@
-{{ define "main" }}  <!-- ✅ define 추가 -->
+{{ define "main" }}
   <article class="container expanded-content my-10" style="max-width: 800px; margin: auto; padding-left: 20px; padding-right: 20px;">
 
     <!-- ✅ 디버깅 메시지 -->
     {{ if .Params.image }}
-      <p style="color: green;">✅ Image parameter found: {{ .Params.image }}</p>
+      <p style="color: green;">✅ Image parameter found: {{ .Params.image.src }}</p>
     {{ else }}
       <p style="color: red;">❌ No image parameter found. Check `index.md`.</p>
     {{ end }}
 
     <!-- ✅ 이미지가 최상단에 배치 -->
-    {{ if .Params.image }}
-      <div class="event-image" style="text-align: center; margin-bottom: 20px;">
-        <img src="{{ .Params.image }}" alt="Event Image" style="max-width: 100%; height: auto;">
-        <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa; margin-top: 5px;">
-          Image credit: AACR
-        </p>
-      </div>
-    {{ else }}
-      <p style="color: red;">❌ No valid image found. Check `index.md`.</p>
+    {{ with .Params.image }}
+      {{ if .src }}
+        <div class="event-image" style="text-align: center; margin-bottom: 20px;">
+          <p style="color: green;">✅ Loading image from: {{ .src }}</p>
+          <img src="{{ .src | relURL }}" alt="Event Image" style="max-width: 100%; height: auto;">
+          {{ with .caption }}
+            <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa; margin-top: 5px;">
+              {{ . | markdownify }}
+            </p>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p style="color: red;">❌ No image src found. Check `index.md`.</p>
+      {{ end }}
     {{ end }}
 
     <header>
@@ -27,7 +32,7 @@
     </header>
 
     <!-- ✅ 본문 출력 -->
-    <div class="event-content" style="font-size: 15px;">
+    <div class="event-content" style="margin-left: 10px; margin-right: 10px; font-size: 15px;">
       {{ if .Content }}
         {{ .Content | markdownify }}
       {{ else }}
@@ -36,4 +41,4 @@
     </div>
 
   </article>
-{{ end }}  <!-- ✅ define "main" 닫힘 -->
+{{ end }}
