@@ -6,12 +6,16 @@
       {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
     </header>
 
-    <!-- ✅ 이미지 추가 (맵 데이터 처리) -->
+    <!-- ✅ 이미지 추가 및 캡션 표시 -->
     {{ with .Params.image }}
       {{ if .src }}
         <div class="event-image">
           <img src="{{ .src | relURL }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto;">
-          {{ with .caption }}<p class="image-caption">{{ . | markdownify }}</p>{{ end }}
+          {{ with .caption }}
+            <p class="image-caption" style="text-align: center; font-size: 14px; color: #aaa;">
+              {{ . | markdownify }}
+            </p>
+          {{ end }}
         </div>
       {{ else }}
         <p style="color: red;">⚠ No image found. Please check your `index.md` file.</p>
