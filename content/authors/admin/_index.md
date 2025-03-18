@@ -74,7 +74,7 @@ work:
     summary: |2-
       - Development of Machine learning Platform Using Transcriptomics
       - Prediction of Immune Checkpoint Inhibitor Response in Various Cancers
-      - AI Model for Diagnosis of Aizheimer's Disease
+      - AI Model for Diagnosis of Alzheimer's Disease
   - position: Undergraduate Student
     company_name: RNA-based Predicion Medicine Lab
     company_url: 'https://sites.google.com/view/lab-rpm?pli=1'
@@ -82,7 +82,7 @@ work:
     date_end: 2021-08-31
     summary: |2-
       - Platform Development for RNA-seq Analyis
-      - Cell Experiment for lncRNA
+      - Cell Experiment for ncRNA
   - position: Undergraduate Student
     company_name: Celtech
     date_start: 2017-01-08
@@ -90,7 +90,7 @@ work:
     summary: |2-
       - Study for Lymphedema
       - Cell Experiment & Mouse Work
-      - Western blot & qRT-PCR
+      - Western Blot & qRT-PCR
 
 
 # Skills
@@ -137,31 +137,27 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: NRF Ph.D. Student Research Fellowship
+    url: https://www.nrf.re.kr/biz/info/info/view?menu_no=378&biz_no=416
+    date: '2024-09-01'
+    awarder: National Research Foundation of Korea (NRF)
+    icon: nrf
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+     I was selected for the 2024 NRF Ph.D. Student Research Encouragement Grant by the National Research Foundation of Korea, securing a two-year individual research project. As a result, I am receiving research funding from NRF for two years.
+  - title: On-dream Future Industrial Talent Scholarship
+    url: https://www.cmkfoundation-scholarship.org/
+    date: '2023-06-14'
+    awarder: Hyundai Motor Chung Mong-Koo Foundation
+    icon: cmk
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      I was selected for the Hyundai On-Dream Future Industrial Talent Scholarship in 2023 and have been receiving benefits each semester, including tuition support, living expenses, annual conference participation funding, and a scholarship for research publication.
+  - title: Excellent graduate student scholarship
+    url: https://www.skku.edu/skku/mobile/notice.do;HOMEPAGE_JSESSIONID=x4DM0lI1lVcfezW7QeoXzfCjKOW8S2W_L6CmAOO5mO_aAfsM2uw0!-2129878608?mode=view&articleNo=89082&article.offset=880&articleLimit=10&srSearchVal=%EB%8C%80%ED%95%99%EC%9B%90
+    date: '2021-09-01'
+    awarder: Sungkyunkwan University
+    icon: skku
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      I was selected as an Outstanding Graduate Student Scholarship recipient at Sungkyunkwan University for the second half of 2021 and received tuition support each semester.
 ---
 
 ## About Me
