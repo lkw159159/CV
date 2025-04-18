@@ -1,7 +1,7 @@
 ---
 title: 👩🏼‍🏫 Teach 5 weeks course of functional transcriptomics
 summary: Basic R & Linux, NGS Data Processing, DEG Analysis, Functional Annotation and Data Visualization.
-date: 2025-03-14
+date: 2025-04-18
 math: true
 authors:
   - admin
@@ -13,7 +13,7 @@ image:
   caption: 'RNAseq Analysis'
 ---
 
-For undergraduate course, I taught  a 5-week course on functional transcriptomics.
+For undergraduate course, I taught a 5-week course on functional transcriptomics (3/14 - 4/18).
 
 This course covered the fundamentals of R and Linux for bioinformatics, as well as RNA sequencing analysis and data visualization.
 
