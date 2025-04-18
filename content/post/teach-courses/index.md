@@ -16,7 +16,6 @@ image:
 For undergraduate course, I taught  a 5-week course on functional transcriptomics.
 
 This course covered the fundamentals of R and Linux for bioinformatics, as well as RNA sequencing analysis and data visualization.
----
 
 ### **Class Syllabus**
 
