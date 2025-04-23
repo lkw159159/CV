@@ -9,5 +9,5 @@ image:
   
 ---
 
-During Gene camp 2025, I presented two posters about AI platforms utilizing whole transcriptomics (3/26 - 3/28).
+For academic exchange between scholarship students of Hyundai Motor Chung Mong-Koo Foundation, I presented my research topic and publication experience.
 
