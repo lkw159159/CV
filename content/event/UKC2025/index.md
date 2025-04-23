@@ -31,7 +31,7 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: false
 image: 
-  src: "/CV/event/UKC2025/ukc25.jpg"
+  src: "/CV/event/UKC2025/featured.jpg"
   caption: 'Image credit: [**KSEA**](https://ukc.ksea.org/home)'
 ---
 
