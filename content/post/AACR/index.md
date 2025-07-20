@@ -13,6 +13,6 @@ image:
 
 During AACR 2025, I presented two posters about AI platforms utilizing whole transcriptomics (4/28 - 4/30).
 
-![AACR Poster1](Poster1.jpg)
-![AACR Poster2](Poster2.jpg)
-![AACR Poster3](Poster3.jpg)
+![AACR Poster1](/images/AACR/Poster1.jpg)
+![AACR Poster2](/images/AACR/Poster2.jpg)
+![AACR Poster3](/images/AACR/Poster3.jpg)

@@ -42,6 +42,6 @@ image:
 <br>
 
 **Main**<br>
-With full support from the Hyundai Motor Chung Mong-Koo Foundation, I will attend to UKC 2025 as a presenter at the Medical and Pharmaceutical Science symposium.  
+With full support from the Hyundai Motor Chung Mong-Koo Foundation, I will attend to UKC 2025 as a presenter at the Medical and Pharmaceutical Science symposium. <br> 
 Additionally, to gain the opportunity to engage with senior experts and receive valuable advice for establishing myself as an independent researcher, I will participate in the SCIENTISTS AND ENGINEERS EARLY CAREER DEVELOPMENT (SEED) 2025 program. 
 
