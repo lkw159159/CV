@@ -17,16 +17,3 @@
 }
 
 
-/* Fellowship & Scholarship 섹션의 리스트를 2단으로 정렬 */
-#award .experience {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-/* 모바일에서는 다시 1단으로 보이게 설정 */
-@media (max-width: 768px) {
-  #award .experience {
-    grid-template-columns: 1fr;
-  }
-}
