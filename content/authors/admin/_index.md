@@ -158,6 +158,7 @@ awards:
     icon: cmk
     icon_pack: custom
 
+  - title: Excellent graduate student scholarship
     url: https://www.skku.edu/skku/mobile/notice.do;HOMEPAGE_JSESSIONID=x4DM0lI1lVcfezW7QeoXzfCjKOW8S2W_L6CmAOO5mO_aAfsM2uw0!-2129878608?mode=view&articleNo=89082&article.offset=880&articleLimit=10&srSearchVal=%EB%8C%80%ED%95%99%EC%9B%90
     date: '2021-09-01'
     awarder: Sungkyunkwan University
