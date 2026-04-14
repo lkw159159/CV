@@ -1,27 +1,27 @@
 ---
-title: "Poster Presentation in 2025 AACR (#2427)"
+title: "Selected Oral Presentation (Young Scientist Session)"
 
-event: AACR Annual Meeting 2025
-event_url: https://www.aacr.org/meeting/aacr-annual-meeting-2025/
+event: KOGO-Winter Symposium 2026
+event_url: https://www.kogo.or.kr/html/?pmode=inputList&part=&smode=view&intAcSeq=329
 
-location: McCormick Place Convention Center
+location: Vivaldi Park
 address:
-  city: Chicago
-  region: Illinois
-  country: United States
+  city: Hongcheon
+  region: Gangwon
+  country: Republic of Korea
 
 class: "expanded-content"
 
-summary: 'Optimization of preprocessing strategies for developing AI-based disease diagnosis model using whole transcriptomic data'
+summary: '🏆 **Honored with the Young Scientist Presentation Award.** Presented an AI framework for predicting ICI response in lung adenocarcinoma.​'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-04-28T09:00:00Z'
-date_end: '2025-04-28T12:00:00Z'
+date: '2026-02-05T09:00:00Z'
+date_end: '2026-02-05T12:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2025-03-18T00:00:00Z'
+publishDate: '2026-04-14T00:00:00Z'
 
 authors:
   - admin
@@ -31,21 +31,29 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: false
 image: 
-  src: "/CV/event/2025_AACR/featured.jpg"
-  caption: 'Image credit: [**AACR**](https://oncodaily.com/blog/214078)'
+  src: "/CV/event/2026_KOGO/featured.jpg"
 ---
 
 <br><br>
 
-**Background**<br>
-Current research in medicine and biology predominantly focuses on applying artificial intelligence (AI) to analyze patient-specific imaging data, such as CT and MRI scans. However, the application of AI to next-generation sequencing (NGS) data, particularly transcriptomics, remains underutilized. RNA sequencing data is prone to biological and technical variability during generation, and the choice of error-correction and preprocessing methods can significantly influence downstream analyses. These challenges underscore the need for clear and systematic guidelines to optimize transcriptome data for AI-based analyses. In this study, we aim to identify optimal preprocessing strategies for developing AI models leveraging transcriptomic data. 
+## **🏆 Recognition**
+* **Young Scientist Presentation Award**, The Korean Genome Organization (KOGO), Feb 2026.
+* Selected as an **Oral Presenter** for the Young Scientist Session.
 
-<br><br>
+---
 
-**Methods**<br>
-We utilized RNA sequencing datasets from 25 independent cohorts, comprising over 5,800 patients with conditions such as lung adenocarcinoma, colorectal cancer, diabetes, and other diseases. A total of 18 combinatorial preprocessing pipelines were systematically assessed, encompassing 6 normalization methods (Raw, CPMTMM, RLE, UQ, RPKM, TPM) and 3 scaling methods (None, MinMax, Z-score). Over 20,000 transcripts were processed using each combination of normalization and scaling techniques. We then developed disease diagnosis models using 13 machine learning and deep learning algorithms. The performance of these models was evaluated to identify the most effective preprocessing strategies for transcriptomic data. 
+## **Presentation Title**
+> **Transcriptome-driven Immune Phenotyping AI Framework Predict ICI Response and Long-term Benefit in Lung Adenocarcinoma**
 
-<br><br>
+---
 
-**Conclusion**<br>
-We identified algorithm-specific optimal preprocessing strategies to develop robust AI models utilizing transcriptomic data. Performance variations driven by normalization and scaling methods were observed for each algorithm, with these differences being particularly pronounced in datasets characterized by inherently lower model performance (difficult tasks). Our findings underscore the critical role of preprocessing in shaping model outcomes and provide a foundation for the development of tailored AI frameworks for disease diagnosis. This study offers a systematic approach to optimize transcriptomics-based predictive modeling, advancing the integration of AI into transcriptomic data analysis for clinical applications.
+## **Highlights**
+As a selected presenter, I presented my research at the KOGO Winter Symposium.
+
+* **Objective:** To improve the accuracy of predicting clinical responses to Immune Checkpoint Inhibitors (ICI).
+* **Methodology:** Integration of RNA-seq data preprocessing optimization with advanced deep learning models.
+* **Key Finding:** Established a robust immune phenotyping framework that significantly correlates with long-term therapeutic benefits in lung adenocarcinoma cohorts.
+
+![KOGO Presentation1](/KOGO2026_1.jpg)
+![KOGO Presentation2](/KOGO2026_2.jpg)
+![KOGO Presentation3](/KOGO2026_3.jpg)
