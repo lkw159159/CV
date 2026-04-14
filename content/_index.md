@@ -69,6 +69,8 @@ sections:
     content:
       title: Fellowship & Scholarship
       username: admin
+    design:
+      columns: 2
   - block: collection
     id: papers
     content:
