@@ -41,19 +41,19 @@ image:
 * Selected as an **Oral Presenter** for the Young Scientist Session.
 
 ---
-
+<br>
 ## **Presentation Title**
 > **Transcriptome-driven Immune Phenotyping AI Framework Predict ICI Response and Long-term Benefit in Lung Adenocarcinoma**
 
 ---
-
+<br>
 ## **Highlights**
 As a selected presenter, I presented my research at the KOGO Winter Symposium.
 
 * **Objective:** To improve the accuracy of predicting clinical responses to Immune Checkpoint Inhibitors (ICI).
 * **Methodology:** Integration of RNA-seq data preprocessing optimization with advanced deep learning models.
 * **Key Finding:** Established a robust immune phenotyping framework that significantly correlates with long-term therapeutic benefits in lung adenocarcinoma cohorts.
-
+<br><br>
 ![KOGO Presentation1](/KOGO2026_1.jpg)
 ![KOGO Presentation2](/KOGO2026_2.jpg)
 ![KOGO Presentation3](/KOGO2026_3.jpg)
