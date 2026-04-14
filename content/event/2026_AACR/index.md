@@ -29,17 +29,17 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 image: 
   src: "/CV/event/2026_AACR/featured.jpg"
 ---
 
-## **🏆 Achievement & Recognition**
+**🏆 Achievement & Recognition**
 I am deeply honored to announce that I have been selected as a recipient of the **AACR-Margaret Foti Foundation Scholar-in-Training Award** for the AACR Annual Meeting 2026. This prestigious award recognizes highly meritorious abstracts submitted by early-career scientists.
 
 ---
 
-## **Poster Presentation Details**
+**Poster Presentation Details**
 * **Abstract Title:** *Expression-based immune-phenotyping ML model predict ICI response and long-term clinic benefit in lung adenocarcinoma*
 * **Abstract Number:** #3594
 * **Session:** Integrative Computational Approaches 1
@@ -48,12 +48,12 @@ I am deeply honored to announce that I have been selected as a recipient of the 
 
 ---
 
-## **Research Overview**
+**Research Overview**
 In this study, I present a machine learning-based framework that leverages transcriptomic immune-phenotyping to predict responses to Immune Checkpoint Inhibitors (ICI). Our model not only predicts immediate response but also identifies patients likely to experience long-term clinical benefits, providing a robust tool for precision oncology in lung adenocarcinoma.
 
 ---
 
-## **Acknowledgements**
+**Acknowledgements**
 This research and my participation in the AACR Annual Meeting 2026 are generously supported by:
 * **AACR-Margaret Foti Foundation** (Scholar-in-Training Award)
 * **National Research Foundation of Korea (NRF)**

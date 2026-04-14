@@ -36,18 +36,18 @@ image:
 
 <br><br>
 
-## **🏆 Recognition**
+**🏆 Recognition**
 * **Young Scientist Presentation Award**, The Korean Genome Organization (KOGO), Feb 2026.
 * Selected as an **Oral Presenter** for the Young Scientist Session.
 
 ---
 <br>
-## **Presentation Title**
+**Presentation Title**
 > **Transcriptome-driven Immune Phenotyping AI Framework Predict ICI Response and Long-term Benefit in Lung Adenocarcinoma**
 
 ---
 <br>
-## **Highlights**
+**Highlights**
 As a selected presenter, I presented my research at the KOGO Winter Symposium.
 
 * **Objective:** To improve the accuracy of predicting clinical responses to Immune Checkpoint Inhibitors (ICI).
