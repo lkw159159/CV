@@ -1,14 +1,32 @@
-/* 본문 전체 너비 조정 */
+/* 사이트 전체 컨테이너 폭 확장 */
 .container {
-    max-width: 1200px !important;  /* 기본보다 더 넓게 확장 */
-    padding-left: 40px; /* 좌측 여백 */
-    padding-right: 40px; /* 우측 여백 */
+    max-width: 1440px !important; /* 기본 약 1140px에서 1440px로 확장 */
+}
+
+/* 화면이 아주 큰 모니터에서 더 넓게 보고 싶다면 */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1600px !important;
+    }
+}
+
+/* 하단 Talks 섹션 등 그리드 간격 조정 */
+#talks .row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+
+/* Fellowship & Scholarship 섹션의 리스트를 2단으로 정렬 */
+#award .experience {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* 모바일에서는 다시 1단으로 보이게 설정 */
+@media (max-width: 768px) {
+  #award .experience {
+    grid-template-columns: 1fr;
   }
-  
-/* AACR 2025 페이지의 본문을 더 넓게 표시 */
-.expanded-content {
-    max-width: 1100px !important; /* 기존보다 너비 증가 */
-    margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+}

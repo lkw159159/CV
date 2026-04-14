@@ -11,4 +11,4 @@ image:
 
 For academic exchange between scholarship students of Hyundai Motor Chung Mong-Koo Foundation, I presented my research topic and publication experience.
 
-![ICGSK Presentation1](/images/2025_ICGSK_mini/Poster1.jpg)
+![ICGSK Presentation1](Poster1.jpg)
