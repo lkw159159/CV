@@ -140,7 +140,7 @@ awards:
   - title: AACR-Margaret Foti Foundation Scholar-in-Training Award
     url: https://www.aacr.org/professionals/meetings/aacr-travel-grants/scholar-in-training-awards-annual-meeting/
     date: '2026-04-20'
-    awarder: National Research Foundation of Korea (NRF)
+    awarder: American Association for Cancer Research (AACR)
     icon: nrf
     icon_pack: custom
 

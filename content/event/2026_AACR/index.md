@@ -1,27 +1,27 @@
 ---
-title: "Poster Presentation in 2025 AACR (#2427)"
+title: "Poster Presentation in 2026 AACR (#3594)"
 
-event: AACR Annual Meeting 2025
-event_url: https://www.aacr.org/meeting/aacr-annual-meeting-2025/
+event: AACR Annual Meeting 2026
+event_url: https://www.aacr.org/meeting/aacr-annual-meeting-2026/
 
-location: McCormick Place Convention Center
+location: San Diego Convention Center
 address:
-  city: Chicago
-  region: Illinois
+  city: San Diego
+  region: California
   country: United States
 
 class: "expanded-content"
 
-summary: 'Optimization of preprocessing strategies for developing AI-based disease diagnosis model using whole transcriptomic data'
+summary: 'Expression-based immune-phenotyping ML model predict ICI response and long-term clinic benefit in lung adenocarcinoma'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-04-28T09:00:00Z'
-date_end: '2025-04-28T12:00:00Z'
+date: '2026-04-20T09:00:00Z'
+date_end: '2026-04-20T12:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2025-03-18T00:00:00Z'
+publishDate: '2026-04-20T00:00:00Z'
 
 authors:
   - admin
@@ -29,23 +29,36 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 image: 
-  src: "/CV/event/2025_AACR/featured.jpg"
-  caption: 'Image credit: [**AACR**](https://oncodaily.com/blog/214078)'
+  src: "/CV/event/2026_AACR/featured.jpg"
 ---
 
-<br><br>
+## **🏆 Achievement & Recognition**
+I am deeply honored to announce that I have been selected as a recipient of the **AACR-Margaret Foti Foundation Scholar-in-Training Award** for the AACR Annual Meeting 2026. This prestigious award recognizes highly meritorious abstracts submitted by early-career scientists.
 
-**Background**<br>
-Current research in medicine and biology predominantly focuses on applying artificial intelligence (AI) to analyze patient-specific imaging data, such as CT and MRI scans. However, the application of AI to next-generation sequencing (NGS) data, particularly transcriptomics, remains underutilized. RNA sequencing data is prone to biological and technical variability during generation, and the choice of error-correction and preprocessing methods can significantly influence downstream analyses. These challenges underscore the need for clear and systematic guidelines to optimize transcriptome data for AI-based analyses. In this study, we aim to identify optimal preprocessing strategies for developing AI models leveraging transcriptomic data. 
+---
 
-<br><br>
+## **Poster Presentation Details**
+* **Abstract Title:** *Expression-based immune-phenotyping ML model predict ICI response and long-term clinic benefit in lung adenocarcinoma*
+* **Abstract Number:** #3594
+* **Session:** Integrative Computational Approaches 1
+* **Date & Time:** Monday, April 20, 2026 | 9:00 AM – 12:00 PM
+* **Location:** Poster Section 5 - Board Number 4, San Diego Convention Center
 
-**Methods**<br>
-We utilized RNA sequencing datasets from 25 independent cohorts, comprising over 5,800 patients with conditions such as lung adenocarcinoma, colorectal cancer, diabetes, and other diseases. A total of 18 combinatorial preprocessing pipelines were systematically assessed, encompassing 6 normalization methods (Raw, CPMTMM, RLE, UQ, RPKM, TPM) and 3 scaling methods (None, MinMax, Z-score). Over 20,000 transcripts were processed using each combination of normalization and scaling techniques. We then developed disease diagnosis models using 13 machine learning and deep learning algorithms. The performance of these models was evaluated to identify the most effective preprocessing strategies for transcriptomic data. 
+---
 
-<br><br>
+## **Research Overview**
+In this study, I present a machine learning-based framework that leverages transcriptomic immune-phenotyping to predict responses to Immune Checkpoint Inhibitors (ICI). Our model not only predicts immediate response but also identifies patients likely to experience long-term clinical benefits, providing a robust tool for precision oncology in lung adenocarcinoma.
 
-**Conclusion**<br>
-We identified algorithm-specific optimal preprocessing strategies to develop robust AI models utilizing transcriptomic data. Performance variations driven by normalization and scaling methods were observed for each algorithm, with these differences being particularly pronounced in datasets characterized by inherently lower model performance (difficult tasks). Our findings underscore the critical role of preprocessing in shaping model outcomes and provide a foundation for the development of tailored AI frameworks for disease diagnosis. This study offers a systematic approach to optimize transcriptomics-based predictive modeling, advancing the integration of AI into transcriptomic data analysis for clinical applications.
+---
+
+## **Acknowledgements**
+This research and my participation in the AACR Annual Meeting 2026 are generously supported by:
+* **AACR-Margaret Foti Foundation** (Scholar-in-Training Award)
+* **National Research Foundation of Korea (NRF)**
+* **Hyundai Motor Chung Mong-Koo Foundation** (On-dream Future Industrial Talent Scholarship)
+
+---
+
+I look forward to engaging with fellow researchers in San Diego. Please feel free to stop by my poster to discuss bioinformatics, AI in oncology, or potential collaborations! ✈️🇺🇸
