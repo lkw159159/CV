@@ -16,4 +16,7 @@
     margin-right: -20px;
 }
 
-
+/* My Research 섹션 양옆 공백 줄이기 */
+.blox-markdown .max-w-prose {
+    max-width: 100% !important;
+}
