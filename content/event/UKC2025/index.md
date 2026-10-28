@@ -12,7 +12,7 @@ address:
 
 class: "expanded-content"
 
-summary: 'Attend to SEED program and will present at Medical and Pharmaceutical Science (MPS) symposium'
+summary: 'Attended the SEED program and presented at the Medical and Pharmaceutical Science (MPS) symposium'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

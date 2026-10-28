@@ -31,10 +31,10 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:lkw159159@naver.com'
+    url: 'mailto:lkw159159@skku.edu'
     label: E-mail Me
   - icon: brands/instagram
-    url: https://instagram/lkw159159
+    url: https://www.instagram.com/lkw159159
   - icon: brands/github
     url: https://github.com/lkw159159
   - icon: brands/linkedin
@@ -52,7 +52,7 @@ education:
   - area: Integrated Ph.D Course - Integrated Biotechnology
     institution: Sungkyunkwan University
     date_start: 2021-09-01
-    date_end: NULL 
+    date_end: ''
     summary: |
       Supervised by [Prof. Youngjun Jeon](https://sites.google.com/view/lab-rpm/personnel/professor?authuser=0).
       [RNA-based Precision Medicine Lab](https://sites.google.com/view/lab-rpm/home?authuser=0)
@@ -67,7 +67,7 @@ education:
       
 work:
   - position: Graduate Student
-    company_name: RNA-based Predicion Medicine Lab
+    company_name: RNA-based Precision Medicine Lab
     company_url: 'https://sites.google.com/view/lab-rpm?pli=1'
     date_start: 2021-09-01
     date_end: ''
@@ -76,7 +76,7 @@ work:
       - Prediction of Immune Checkpoint Inhibitor Response in Various Cancers
       - AI Model for Diagnosis of Alzheimer's Disease
   - position: Undergraduate Student
-    company_name: RNA-based Predicion Medicine Lab
+    company_name: RNA-based Precision Medicine Lab
     company_url: 'https://sites.google.com/view/lab-rpm?pli=1'
     date_start: 2020-10-01
     date_end: 2021-08-31
@@ -117,11 +117,11 @@ skills:
       - name: Cell Biology
         description: 'Cell Works including Transfection'
         percent: 60
-        icon: cat
+        icon: beaker
       - name: Molecular Biology
         description: 'Western Blot & PCR Experiment'
         percent: 70
-        icon: cat
+        icon: beaker
       - name: Library Preparation
         description: 'RNA-seq Library Preparation & Exome Capture'
         percent: 80
